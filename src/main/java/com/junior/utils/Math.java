@@ -24,7 +24,7 @@ public class Math {
     return myElement;
   }
 
-  public void addNumbers() throws EvenException {
+  public void isEven() throws EvenException {
     final var myNumber = FileUtils.getNumber();
 
     if (myNumber % 2 == 0) {

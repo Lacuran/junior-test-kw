@@ -10,6 +10,6 @@ public class Main {
     final Math math = new Math();
 
     math.getLastElementFromArray();
-    math.addNumbers();
+    math.isEven();
   }
 }
