@@ -10,8 +10,6 @@ public class Math {
 
   private final List<String> test = new ArrayList<>();
 
-  private Integer a = 10;
-
   public Math() {
     addItemsToList();
   }
