@@ -19,7 +19,8 @@ public class Math {
   }
 
   public final String getLastElementFromArray() {
-    final String myElement = test.get(FileUtils.getIndex());
+    long count = test.size();
+    final String myElement = test.stream().skip(count - 1).findFirst().get();
     System.out.println("Last element is: " + myElement);
     return myElement;
   }
